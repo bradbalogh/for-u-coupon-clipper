@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "For U Clipper",
+  "description": "Automatically clip for U Coupons",
+  "version": "1.0",
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "permissions": ["scripting", "activeTab"],
+  "host_permissions": [
+    "https://www.albertsons.com/foru/coupons-deals.html",
+    "https://www.jewelosco.com/foru/coupons-deals.html",
+    "https://www.safeway.com/foru/coupons-deals.html"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
