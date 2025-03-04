@@ -4,8 +4,8 @@
   "description": "Automatically clip for U Coupons",
   "version": "1.0",
   "icons": {
-    "48": "icon48.png",
-    "128": "icon128.png"
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
   },
   "permissions": ["scripting", "activeTab"],
   "host_permissions": [
